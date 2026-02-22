@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Tell Tailwind v4 to use the .dark class for dark mode instead of media queries */
+@custom-variant dark (&:is(.dark *));
